@@ -7,3 +7,7 @@ require("config.options")
 require("config.keymaps")
 require("config.autocmd")
 
+-- set colorscheme
+vim.o.background='dark'
+vim.cmd([[colorscheme gruvbox]])
+
