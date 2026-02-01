@@ -10,7 +10,7 @@ return {
   },
   lazy = false,
   keys = {
-    { '<leader>e', ':Neotree float<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<leader>e', ':Neotree<CR>', desc = 'NeoTree reveal', silent = true },
     -- { '<leader>E', ':Neotree close<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
