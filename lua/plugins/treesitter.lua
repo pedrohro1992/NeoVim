@@ -22,6 +22,8 @@ return {
         'gomod',
         'gosum',
         'gowork',
+                                -- terraform
+                                'terraform',
       },
       auto_install = true,
       highlight = {

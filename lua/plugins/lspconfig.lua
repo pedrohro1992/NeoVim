@@ -160,6 +160,7 @@ return {
             },
           },
         },
+        terraform_ls = {}
       }
 
       local ensure_installed = vim.tbl_keys(servers or {})
@@ -174,6 +175,10 @@ return {
         'iferr',
         'impl',
         'goimports',
+        -- Terraform
+        'terraformls',
+        'tflint',
+        'tfsec',
         -- kuberntes
         -- 'kube_linter',
       })
