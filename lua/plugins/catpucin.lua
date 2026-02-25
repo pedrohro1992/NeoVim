@@ -5,10 +5,10 @@ return {
     config = function()
       ---@diagnostic disable-next-line: missing-fields
       require('catppuccin').setup {
-        transparent_background = false, -- disables setting the background color.
+        transparent_background = true, -- disables setting the background color.
       }
 
-      vim.cmd.colorscheme 'catppuccin'
+      -- vim.cmd.colorscheme 'catppuccin'
     end,
   },
 }
