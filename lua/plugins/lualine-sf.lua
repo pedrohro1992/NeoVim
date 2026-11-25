@@ -1,15 +1,14 @@
 return {
   {
-    'nvim-lualine/lualine.nvim',
+    "nvim-lualine/lualine.nvim",
     dependencies = {
-      'nvim-tree/nvim-web-devicons',
-      'meuter/lualine-so-fancy.nvim',
+      "nvim-tree/nvim-web-devicons",
+      "meuter/lualine-so-fancy.nvim",
     },
     opts = {
       options = {
-        theme = 'catppuccin',
-        section_separators = { left = '', right = '' },
-        component_separators = { left = '', right = '' },
+        section_separators = { left = "", right = "" },
+        component_separators = { left = "", right = "" },
         globalstatus = true,
 
         refresh = {
@@ -18,30 +17,29 @@ return {
       },
       sections = {
         lualine_a = {
-          { 'fancy_mode', width = 6 },
+          { "fancy_mode", width = 6 },
         },
         lualine_b = {
 
-          { 'fancy_branch' },
-          { 'fancy_diff' },
+          { "fancy_branch" },
+          { "fancy_diff" },
         },
         lualine_c = {
-          { '' },
+          { "" },
         },
         lualine_x = {
-          { 'fancy_macro' },
-          { 'fancy_diagnostics' },
-          { 'fancy_searchcount' },
-          { 'fancy_location' },
+          { "fancy_macro" },
+          { "fancy_diagnostics" },
+          { "fancy_searchcount" },
+          { "fancy_location" },
         },
         lualine_y = {
-          { 'fancy_filetype', ts_icon = '' },
+          { "fancy_filetype", ts_icon = "" },
         },
         lualine_z = {
-          { 'fancy_lsp_servers' },
+          { "fancy_lsp_servers" },
         },
       },
     },
   },
 }
-
